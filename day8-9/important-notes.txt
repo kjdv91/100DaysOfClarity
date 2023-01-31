@@ -1,0 +1,10 @@
+Call functions with parameters and without optional parameters
+(define-read-only (func-with-params (num uint ) (name (string-ascii 48)) (verd bool))
+    num 
+)
+(contract-call? .name-contract function params u10 "name" false)
+Optionlas Params
+(define-read-only (params-opti (num (optional uint)) (name (string-ascii 48)) (is-student (optional bool)))
+    num
+)
+(contract-call? .name-contract function(some u10) none none)
