@@ -1,0 +1,10 @@
+clarinet new hello-wordl
+clarinet contract new clarity-basics-i  = crea el smart contract
+stack/cli npm i @stacks/cli o npm i -g @stacks/cli
+comandosn para stacks cli 
+---- stx help-- = ver todas las funcionalidades
+stx make_keychain -t 
+genera una nueva cuenta de tesnet 
+stx balance = ver balance de wallet
+llammo a la funcion a testear clarinet
+(contract-call? .clarity-basics-i show-true)
